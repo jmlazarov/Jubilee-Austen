@@ -140,14 +140,15 @@ header h2 span {
 
 #contact-img {
     border: 12px solid #ffffff;
+    width: 95%;
 }
 
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-    padding-left: 115px;
+#contact h2, #contact #email-header, #contact ul {
+    padding-left: 100px;
 }
 
 #contact #envelope {
-    padding: 0 10px 0 115px;
+    padding-left: 100px;
 }
 
 #contact h2 {
@@ -155,6 +156,10 @@ header h2 span {
     font-size: 36px;
     line-height: 44px;
     color: #2b2b2b;
+}
+
+#contact #socialmedia-header {
+    padding-left: 90px;
 }
 
 #contact #email-header {
@@ -192,5 +197,5 @@ header h2 span {
 }
 
 #contact ul img {
-    padding-right: 45px;
+    padding-right: 30px;
 }
